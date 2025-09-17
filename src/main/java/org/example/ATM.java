@@ -5,5 +5,9 @@ public class ATM {
         System.out.println("Deposited cash: $" + amount);
 
     }
+    public void deposit(String checkNumber,int amount){
+        System.out.println("Deposited check # " +checkNumber+ " amount: $"+amount);
+
+    }
 
 }
