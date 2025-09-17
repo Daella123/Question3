@@ -10,4 +10,9 @@ public class ATM {
 
     }
 
+    public void deposit(String phoneNumber,double amount){
+        System.out.println("Deposited via mobile transfer from " +phoneNumber+ " amount: $"+amount);
+
+    }
+
 }
