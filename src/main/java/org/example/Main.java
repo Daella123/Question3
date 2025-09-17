@@ -8,6 +8,8 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         ATM atm=new ATM();
         atm.deposit(12000);
-        atm.deposit(12000);
+        atm.deposit("check009",700);
+        atm.deposit("0789456789",400.98);
+
     }
 }
